@@ -1,3 +1,29 @@
+--Sistem Perpustakaan 3 User--<br>
+Kevin Dwi Ananta | 15 | 12 RPL B<br>
+<br>
+== Projek sistem informasi perpustakaan terdapat 3 Role yaitu Admin, Petugas, dan Peminjam dengan hak akses yang berbeda-beda berbasis website menggunakan Framework Laravel<br>
+<br>
+== Fitur Admin ==<br>
+   - Berisi halaman dashboard yang menampilkan data terbaru<br>
+   - Berisi halaman kategori dengan fitur CRUD<br>
+   - Berisi halaman penerbit dengan fitur CRUD<br>
+   - Berisi halaman rak dengan fitur CRUD<br>
+   - Berisi halaman buku dengan fitur CRUD<br>
+   - Berisi Halaman Transaksi dengan fitur peminjaman dan pengembalian<br>
+   - Berisi Halaman User yang menampilkan data user<br>
+<br>
+== Fitur Petugas == //Pembatasan Hak Akses<br>
+    - Berisi halaman dashboard yang menampilkan data terbaru<br>
+    - Berisi halaman kategori dengan fitur Read dan Print<br>
+    - Berisi halaman penerbit dengan fitur Read dan Print<br>
+    - Berisi halaman rak dengan fitur Read dan Print<br>
+    - Berisi halaman buku dengan fitur Read dan Print<br>
+    - Berisi Halaman Transaksi dengan fitur peminjaman dan pengembalian<br>
+
+== Fitur Peminjam<br>
+    - Berisi halaman depan yang menampilkan daftar buku<br>
+    - Terdapat fitur keranjang yang menampilkan halaman untuk peminjaman<br>
+<br>
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
