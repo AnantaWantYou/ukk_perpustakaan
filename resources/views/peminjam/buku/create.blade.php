@@ -10,19 +10,19 @@
             </div>
             <div class="modal-body">
                 <div class="form-group">
-                    <label for="nama">Nama</label>
-                    <input wire:model="nama" type="text" class="form-control" id="nama" min="1">
-                    @error('nama') <small class="text-danger">{{ $message }}</small> @enderror
-                </div>
-                <div class="form-group">
-                    <label for="ulasan_buku">Ulasan_buku</label>
-                    <input wire:model="ulasan_buku" type="text" class="form-control" id="ulasan_buku" >
-                    @error('ulasan_buku') <small class="text-danger">{{ $message }}</small> @enderror
+                    <label for="user_id">User</label>
+                    <input wire:model="user_id" type="text" class="form-control" id="user_id" min="1">
+                    @error('user_id') <small class="text-danger">{{ $message }}</small> @enderror
                 </div>
                 <div class="form-group">
                     <label for="buku_id">Buku ID</label>
                     <input wire:model="buku_id" type="text" class="form-control" id="buku_id" >
                     @error('buku_id') <small class="text-danger">{{ $message }}</small> @enderror
+                </div>
+                <div class="form-group">
+                    <label for="ulasan">Ulasan_buku</label>
+                    <input wire:model="ulasan" type="text" class="form-control" id="ulasan" >
+                    @error('ulasan') <small class="text-danger">{{ $message }}</small> @enderror
                 </div>
             </div>
             <div class="modal-footer justify-content-between">
