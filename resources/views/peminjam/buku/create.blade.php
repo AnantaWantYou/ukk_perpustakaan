@@ -4,7 +4,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                 <h4 class="modal-title">Tambah Ulasan</h4>
-                <span wire:click="Format" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span wire:click="Format1" type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </span>
             </div>
@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="modal-footer justify-content-between">
-            <span wire:click="Format" type="button" class="btn btn-default" data-dismiss="modal">Batal</span>
+            <span wire:click="Format1" type="button" class="btn btn-default" data-dismiss="modal">Batal</span>
             <span wire:click="store" type="button" class="btn btn-success">Simpan</span>
             </div>
         </div>
